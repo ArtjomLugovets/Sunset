@@ -1,0 +1,13 @@
+body {
+	margin: 60px 70px;
+	background-color: lightslategrey;
+}
+
+#info {
+	font-size: 20px;
+}
+
+#click {
+	border-style: 2px solid;
+	border-radius: 5px;
+}
