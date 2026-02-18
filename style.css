@@ -8,6 +8,12 @@ body {
 }
 
 #click {
-	border-style: 2px solid;
-	border-radius: 5px;
+	border: 2px solid black;
+	padding: 8px 15px;
+	background-color: white;
+}
+
+#location {
+	padding: 5px 80px;
+	font-size: 20px;
 }

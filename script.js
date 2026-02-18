@@ -1,9 +1,15 @@
 const info = document.getElementById("info");
 const btn = document.getElementById("click");
+const loc = document.getElementById("location");
+
 
 async function sunset() {
   const response = await fetch('https://api.sunrise-sunset.org/json?lat=58.5974875&lng=24.9872555&tzid=Europe%2FTallinn');
   const data = await response.json();
+
+  loc.innerHTML = `
+    Asukoht: <em>${data.tzid}</em>
+  `
 
   info.innerHTML = `
     <strong>Päikesetõus:</strong> ${data.results.sunrise} <br>
