@@ -12,16 +12,16 @@ async function sunset() {
   `
 
   info.innerHTML = `
-    <strong>Päikesetõus:</strong> ${data.results.sunrise} <br>
-    <strong>Päikeseloojang:</strong> ${data.results.sunset} <br>
-    <strong>Päikese keskpäev:</strong> ${data.results.solar_noon} <br>
-    <strong>Päikese pikkus:</strong> ${data.results.day_length} <br>
-    <strong>Tsiviilhämaruse algus:</strong> ${data.results.civil_twilight_begin} <br>
-    <strong>Tsiviilhämaruse lõpp:</strong> ${data.results.civil_twilight_end} <br>
-    <strong>Merelise hämaruse algus:</strong> ${data.results.nautical_twilight_begin} <br>
-    <strong>Merelise hämaruse lõpp:</strong> ${data.results.nautical_twilight_end} <br>
-    <strong>Astronoomilisee häramuse algus:</strong> ${data.results.astronomical_twilight_begin} <br>
-    <strong>Astronoomilisee häramuse lõpp:</strong> ${data.results.astronomical_twilight_end} <br>
+    <strong>🌅<u>Päikesetõus</u>:</strong> ${data.results.sunrise} <br>
+    <strong>🌄<u>Päikeseloojang</u>:</strong> ${data.results.sunset} <br>
+    <strong>🌞<u>Päikese keskpäev</u>:</strong> ${data.results.solar_noon} <br>
+    <strong>🌇<u>Päikese pikkus</u>:</strong> ${data.results.day_length} <br>
+    <strong>🌤️<u>Tsiviilhämaruse algus</u>:</strong> ${data.results.civil_twilight_begin} <br>
+    <strong>🌥️<u>Tsiviilhämaruse lõpp</u>:</strong> ${data.results.civil_twilight_end} <br>
+    <strong>🌊<u>Merelise hämaruse algus</u>:</strong> ${data.results.nautical_twilight_begin} <br>
+    <strong>🌌<u>Merelise hämaruse lõpp</u>:</strong> ${data.results.nautical_twilight_end} <br>
+    <strong>🌟<u>Astronoomilisee häramuse algus</u>:</strong> ${data.results.astronomical_twilight_begin} <br>
+    <strong>🌙<u>Astronoomilisee häramuse lõpp</u>:</strong> ${data.results.astronomical_twilight_end} <br>
   `;
 }
 
